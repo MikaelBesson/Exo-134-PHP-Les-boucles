@@ -1,35 +1,44 @@
 <?php
 
 // Premiere ligne
-$i = 1;
+echo "ligne 1<br>";
+echo"<br>";
 
-($i < 6)
-  echo $i;
-  $i++;
+$i = 1;
+while($i < 6){
+    echo $i;
+    $i++;
+}
 
 //Deuxieme ligne
+echo "ligne 2<br>";
 echo"<br><br>";
 
 $i = 1;
-
+do
  {
-     echo $i;
+     echo "la variable vaut $i <br>";
      $i++;
- }  ($i < 6);
+ }
+while($i < 6);
 
-echo"<br><br>";
 //Troisieme ligne
- ($i = 0; $i < 10; ) {
-    echo $x;
+echo "ligne 3<br>";
+echo"<br><br>";
+
+for($i = 0; $i < 10; $i++) {
+    echo "la variable vaut $i<br>";
 }
 
 
-echo"<br><br>";
 //Quatrieme ligne
+echo "ligne 4<br>";
+echo"<br><br>";
+
 $colors = array("red", "green", "blue", "yellow");
 
- ($colors  $x) {
-    echo $x;
+ foreach($colors as $i) {
+    echo "dans ce tableau $i<br>";
 }
 
 
